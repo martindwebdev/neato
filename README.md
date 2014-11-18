@@ -1,0 +1,4 @@
+neato
+=====
+
+Hubot install.
