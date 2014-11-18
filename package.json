@@ -19,7 +19,10 @@
     "hubot-redis-brain": "0.0.2",
     "hubot-scripts": "~2.5.16",
     "hubot": "~2.9.3",
-    "querystring": "~0.2.0"
+    "querystring": "~0.2.0",
+    "hubot-spotify": "~0.1.1",
+    "sh": "0.0.3",
+    "spotify": "~0.3.0"
   },
   "engines": {
     "node": "0.10.x"
