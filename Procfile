@@ -1,1 +1,1 @@
-web: bin/hubot -a slack -n neato
+web: bin/hubot -a slack -n wally
