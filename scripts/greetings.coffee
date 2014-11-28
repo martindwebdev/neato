@@ -20,5 +20,5 @@ greetings = [
 ]
 
 module.exports = (robot) ->
-  robot.respond /meet \/(.+)\//i, (msg) ->
-    msg.send "Hello " + msg.match[1] + ". " + msg.random greetings
+  robot.respond /meet (.*)/i, (msg) ->
+    msg.send "Hello " + msg.match[1].charAt(0).toUpperCase() + msg.match[1].slice(1) + ". " + msg.random greetings
