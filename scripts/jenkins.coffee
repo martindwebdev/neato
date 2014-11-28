@@ -203,7 +203,7 @@ jenkinsList = (msg) ->
             msg.send error
 
 module.exports = (robot) ->
-  robot.respond /j(?:enkins)? build ([\w\.\-_ ]+)(, (.+))?/i, (msg) ->
+  robot.respond /build ([\w\.\-_ ]+)(, (.+))?/i, (msg) ->
     jenkinsBuild(msg, false)
 
   robot.respond /j(?:enkins)? b (\d+)/i, (msg) ->
