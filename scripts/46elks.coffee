@@ -27,7 +27,7 @@ module.exports = (robot) ->
     bahdy = msg.match[2] # bahdy, that's how john mayer would say it.
     user  = process.env.HUBOT_46ELKS_USERNAME
     pass  = process.env.HUBOT_46ELKS_PASSWORD
-    from  = "Hubot"
+    from  = "Wally"
     auth  = 'Basic ' + new Buffer(user + ':' + pass).toString("base64")
 
     unless user
